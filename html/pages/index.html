@@ -13,7 +13,8 @@ title: Awesome Design Agency
 
     <h1 class="navbar-brand"><a href="#">SuperMegaAwesome</a></h1>
 
-    <div class="collapse navbar-collapse" id="navbarToggler">
+    <div class="collapse navbar-collapse justify-content-end"
+         id="navbarToggler">
       <ul class="navbar-nav">
         <li class="nav-item active">
           <a class="nav-link" href="#home">Home</a>
@@ -28,7 +29,7 @@ title: Awesome Design Agency
         </li>
 
         <li class="nav-item nav-btn">
-          <a href="#contacts" class="btn btn-secondary">Get in touch</a>
+          <a href="#contacts" class="btn btn-nav">Get in touch</a>
         </li>
       </ul>
     </div>
@@ -59,47 +60,90 @@ title: Awesome Design Agency
 <section id="services" class="services">
   <div class="container">
     <div class="row">
-      <section class="box col-md-4">
-        <h3>Branding</h3>
+      <div class="col-md-4">
+        <section class="box">
+          <h3>Branding</h3>
 
-        <p>
-          Truffaut DIY keffiyeh, twee messenger bag venmo
-          locavore organic master cleanse marfa gochujang selvage.
-        </p>
+          <p>
+            Truffaut DIY keffiyeh, twee messenger bag venmo
+            locavore organic master cleanse marfa gochujang selvage.
+          </p>
 
-        <a href="#" class="btn btn-primary" role="button">Learn more</a>
-      </section>
+          <a href="#" class="btn btn-primary" role="button">Learn more</a>
+        </section>
+      </div>
 
-      <section class="box col-md-4">
-        <h3>UI/UX Design</h3>
+      <div class="col-md-4">
+        <section class="box">
+          <h3>UI/UX Design</h3>
 
-        <p>
-          Truffaut DIY keffiyeh, twee messenger bag venmo
-          locavore organic master cleanse marfa gochujang selvage.
-        </p>
+          <p>
+            Truffaut DIY keffiyeh, twee messenger bag venmo
+            locavore organic master cleanse marfa gochujang selvage.
+          </p>
 
-        <a href="#" class="btn btn-primary" role="button">Learn more</a>
-      </section>
+          <a href="#" class="btn btn-primary" role="button">Learn more</a>
+        </section>
+      </div>
 
-      <section class="box col-md-4">
-        <h3>Development</h3>
+      <div class="col-md-4">
+        <section class="box">
+          <h3>Development</h3>
 
-        <p>
-          Truffaut DIY keffiyeh, twee messenger bag venmo
-          locavore organic master cleanse marfa gochujang selvage.
-        </p>
+          <p>
+            Truffaut DIY keffiyeh, twee messenger bag venmo
+            locavore organic master cleanse marfa gochujang selvage.
+          </p>
 
-        <a href="#" class="btn btn-primary" role="button">Learn more</a>
-      </section>
+          <a href="#" class="btn btn-primary" role="button">Learn more</a>
+        </section>
+      </div>
     </div>
   </div>
 </section>
 
 <section id="portfolio" class="portfolio">
   <div class="container">
-      <h3>Our work</h3>
+    <h3>Our work</h3>
 
-      <section class="gallery">
+    <div class="row">
+      <figure class="company-logo col-md-2">
+        <img src="{{root}}images/instagram-logo.jpg"
+             alt="instagram logo"
+             class="img-fluid">
+      </figure>
+
+      <figure class="company-logo col-md-2">
+        <img src="{{root}}images/amazon-logo.png"
+             alt="amazon logo"
+             class="img-fluid">
+      </figure>
+
+      <figure class="company-logo col-md-2">
+        <img src="{{root}}images/google.png"
+             alt="google logo"
+             class="img-fluid">
+      </figure>
+
+      <figure class="company-logo col-md-2">
+        <img src="{{root}}images/wordpress.png"
+             alt="wordpress logo"
+             class="img-fluid">
+      </figure>
+
+      <figure class="company-logo col-md-2">
+        <img src="{{root}}images/apple.png"
+             alt="apple logo"
+             class="img-fluid">
+      </figure>
+
+      <figure class="company-logo col-md-2">
+        <img src="{{root}}images/netflix.png"
+             alt="netflix logo"
+             class="img-fluid">
+      </figure>
+
+      <section class="gallery clearfix">
         <figure class="slide">
           <img src="{{root}}images/netflix.jpg" alt="netflix redesign">
         </figure>
@@ -112,7 +156,6 @@ title: Awesome Design Agency
           <img src="{{root}}images/amazon.jpg" alt="amazon redesign">
         </figure>
       </section>
-    </div>
   </div>
 </section>
 
